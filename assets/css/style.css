@@ -1,0 +1,90 @@
+/* feuille de styles pour cv-olivier */
+
+/*
+Reset
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*
+Eléments génériques
+*/
+body {
+    --color-primary: #782221;
+    --color-secondary: #dbc2a4;
+    --color-tertiary: #2c1d27;    
+  }
+
+/*
+Largeur de la page par défaut
+*/
+body {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+     
+  }
+
+/**
+* Eléments principaux
+*/
+/*body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif; 
+  }*/
+  
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary);
+  }
+  
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    min-width: 200px;
+    margin-bottom: 50px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: var(--color-secondary);
+  }
+  
+footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    background-color: var(--color-secondary);
+  }
+
+/**
+* Image portrait
+*/
+
+header img {
+    width: 1000px;
+}
