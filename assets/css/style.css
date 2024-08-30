@@ -69,7 +69,7 @@ header {
     background-color: var(--color-primary);
   }
   
-main {
+/*main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -84,7 +84,7 @@ main {
     font-weight: 500;
     border-radius: 30px;
     background-color: var(--color-secondary);
-  }
+  }*/
   
 footer {
     /*position: sticky;*/
@@ -138,4 +138,28 @@ address a {
   margin: 10px 20px 10px 20px;
   text-decoration-line: none;
 }
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+article :first-child {
+  width: 30%;
+}
+
+section {
+  padding: 10px 20px;
+}
+
+#section_first_column {
+  background-color: var(--color-primary);
+}
+
+#section_first_column h3 {
+  background-color: var(--color-secondary);
+}
+
+
+
 
