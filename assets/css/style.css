@@ -25,10 +25,10 @@ body {
     width: 1160px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    /*display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;*/
      
   }
 
@@ -48,6 +48,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     background-color: var(--color-primary);
   }
   
@@ -69,7 +70,7 @@ main {
   }
   
 footer {
-    position: sticky;
+    /*position: sticky;*/
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -86,5 +87,10 @@ footer {
 */
 
 header img {
-    width: 1000px;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5em black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em 2em 1em 2em;
 }
