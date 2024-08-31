@@ -144,22 +144,35 @@ article {
   flex-direction: row;
 }
 
-article :first-child {
-  width: 30%;
-}
-
 section {
-  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
 }
 
 #section_first_column {
   background-color: var(--color-primary);
+  width: 35%;
 }
 
 #section_first_column h3 {
   background-color: var(--color-secondary);
+  padding-left: 10px;
+  margin-right: 30px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
+#section_first_column p {
+  text-indent: 1cm;
+  text-align: justify;
+  color: white;
+  padding: 0.5em 2em 1.5em 1em;
+}
 
+#section_first_column ul {
+  color: white;
+  padding: 0.5em 2em 1.5em 2em;
+}
 
 
