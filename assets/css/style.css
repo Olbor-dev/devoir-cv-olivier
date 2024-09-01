@@ -35,32 +35,15 @@ body {
   }
 
 /*
-Largeur de la page par défaut
+Page par défaut
 */
 body {
     width: 1160px;
     margin-left: auto;
     margin-right: auto;
     font-family: "Raleway";
-    /*display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;*/
-     
   }
 
-/**
-* Eléments principaux
-*/
-/*body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'Roboto', sans-serif; 
-  }*/
-  
 header {
     display: flex;
     flex-direction: column;
@@ -68,41 +51,19 @@ header {
     width: 100%;
     background-color: var(--color-primary);
   }
-  
-/*main {
+   
+footer {
+    width: 100%;
+    color: white;
+    background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 50%;
-    min-width: 200px;
-    margin-bottom: 50px;
-    padding: 50px;
-    text-align: center;
-    color: white;
-    font-size: 17px;
-    font-weight: 500;
-    border-radius: 30px;
-    background-color: var(--color-secondary);
-  }*/
-  
-footer {
-    /*position: sticky;*/
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 30px;
-    font-weight: 600;
-    font-size: 17px;
-    color: white;
-    background-color: var(--color-secondary);
   }
 
 /**
 * Image portrait
 */
-
 header img {
     border-radius: 50%;
     box-shadow: 0 0 1.5em black;
@@ -175,4 +136,56 @@ section {
   padding: 0.5em 2em 1.5em 2em;
 }
 
+#section_second_column {
+  border-right: solid var(--color-tertiary);
+  width: 65%;
+}
 
+#section_second_column h3 {
+  background-color: var(--color-secondary);
+  padding: 1px 0 1px 0.5em;
+  margin-left: 1em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  border-left: 0.5rem solid var(--color-primary);
+  font-family: "Lato";
+}
+
+#section_second_column h4 {
+  margin: 0 0.5em 1em 1.1em;
+  font-family: "Lato";
+}
+
+#section_second_column p {
+  margin: 0 0.5em 1.5em 2em;
+}
+
+#section_second_column ul {
+  margin: 0 0.5em 1.5em 3em;
+}
+
+footer img {
+  width: 30px;
+  margin: 0 0.5em 0 0.5em;
+}
+
+footer div {
+  margin-top: 1em;
+}
+
+footer p {
+  margin-bottom: 1em;
+  font-size: 0.7em;
+}
+
+header img:hover {
+  cursor: zoom-in;
+}
+
+footer img:hover {
+  opacity: 0.7;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
