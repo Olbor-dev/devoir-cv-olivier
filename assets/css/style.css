@@ -1,6 +1,8 @@
 /* feuille de styles pour cv-olivier */
 
-
+/*
+Polices de caractères
+*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @font-face {
@@ -61,8 +63,8 @@ footer {
     align-items: center;
   }
 
-/**
-* Image portrait
+/*
+Header
 */
 header img {
     border-radius: 50%;
@@ -111,6 +113,9 @@ section {
   padding: 10px 0px;
 }
 
+/*
+1ère colonne
+*/
 #section_first_column {
   background-color: var(--color-primary);
   width: 35%;
@@ -136,6 +141,9 @@ section {
   padding: 0.5em 2em 1.5em 2em;
 }
 
+/*
+2ème colonne
+*/
 #section_second_column {
   border-right: solid var(--color-tertiary);
   width: 65%;
@@ -164,6 +172,9 @@ section {
   margin: 0 0.5em 1.5em 3em;
 }
 
+/*
+footer
+*/
 footer img {
   width: 30px;
   margin: 0 0.5em 0 0.5em;
@@ -176,6 +187,13 @@ footer div {
 footer p {
   margin-bottom: 1em;
   font-size: 0.7em;
+}
+
+/*
+Effets
+*/
+#section_second_column li:hover {
+  border-right: 0.5em solid var(--color-primary);
 }
 
 header img:hover {
